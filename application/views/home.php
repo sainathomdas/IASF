@@ -180,18 +180,6 @@
      <div class="container">
          <div class="container owl-carousel owl-theme">
 
-            <div>
-                 <div class="our-team">
-                     <div class="picture">
-                         <img class="img-fluid" src="<?php echo base_url('assets/images/anurag.jpg')?>">
-                     </div>
-                     <div class="team-content">
-                         <h5 style="color:black;"><strong>Anruag Palla</strong></h5>
-                         <!--  <h5 style="color: #081d3f;"><b>IIITDM Kurnool</b></h5> -->
-                     </div>
-                 </div>
-             </div>
-
 
              <div>
                  <div class="our-team">
@@ -204,19 +192,20 @@
                  </div>
              </div>
 
-
              <div>
                  <div class="our-team">
                      <div class="picture">
-                         <img class="img-fluid" src="<?php echo base_url('assets/images/sricharan.jpg')?>">
+                         <img class="img-fluid" src="<?php echo base_url('assets/images/hans.png')?>">
                      </div>
                      <div class="team-content">
-                         <h5 style="color:black;"><strong>Sricharan Lakkaraju</strong></h5>
+                         <h5 style="color:black;"><strong>Hans J. Hoyer</strong></h5>
                      </div>
                  </div>
              </div>
 
-             <div>
+
+
+                       <div>
                  <div class="our-team">
                      <div class="picture">
                          <img class="img-fluid" src="<?php echo base_url('assets/images/johntharakan.png')?>">
@@ -240,17 +229,7 @@
              </div>
 
 
-             <div>
-                 <div class="our-team">
-                     <div class="picture">
-                         <img class="img-fluid" src="<?php echo base_url('assets/images/hans.png')?>">
-                     </div>
-                     <div class="team-content">
-                         <h5 style="color:black;"><strong>Hans J. Hoyer</strong></h5>
-                     </div>
-                 </div>
-             </div>
-
+             
 
              <div>
                  <div class="our-team">
@@ -287,10 +266,71 @@
                  </div>
              </div>
 
+                <div>
+                 <div class="our-team">
+                     <div class="picture">
+                         <img class="img-fluid" src="<?php echo base_url('assets/images/sricharan.jpg')?>">
+                     </div>
+                     <div class="team-content">
+                         <h5 style="color:black;"><strong>Sricharan Lakkaraju</strong></h5>
+                     </div>
+                 </div>
+             </div>
+
+
 
          </div>
      </div>
  </div>
+
+ <div class="container">
+     <hr class="mb-5 mt-5">
+ </div>
+
+ <div class="container justify-content-center">
+     <h3 class="h3 mt-md-1">Our Event Includes</h3>
+     <div class=" pt-4 col-md-11 justify-content-center">
+
+        <div class="row justify-content-center">
+
+            <div class="card hoverable col-md-3 m-2" data-aos="fade-down" style="max-height: 14rem;max-width: 14rem">
+                <img class="card-img rounded p-1" style="border-radius: 50%;max-height: 12rem;max-width: 12rem" src="<?php echo base_url('assets/images/design.jpg');?>">
+                <h6 class="h6 text-center">Design Thinking</h6>
+            </div>
+
+            <div class="card hoverable col-md-3 m-2" data-aos="fade-down" style="max-height: 14rem;max-width: 14rem">
+                <img class="card-img rounded p-1" style="border-radius: 50%;max-height: 12rem;max-width: 12rem" src="<?php echo base_url('assets/images/brainstorming.jpg');?>">
+                <h6 class="h6 text-center">Brainstorming</h6>
+            </div>
+
+            </div>
+
+
+
+        <div class="row justify-content-center">
+
+            <div class="card hoverable col-md-3 m-2" data-aos="fade-right" style="max-height: 14rem;max-width: 14rem">
+                <img class="card-img rounded p-1" style="border-radius: 50%;max-height: 12rem;max-width: 12rem" src="<?php echo base_url('assets/images/mic.jpeg');?>">
+                <h6 class="h6 text-center">Open Mic</h6>
+            </div>
+
+            <div class="card hoverable col-md-3 m-2" data-aos="fade-up" style="max-height: 14rem;max-width: 14rem">
+                <img class="card-img rounded p-1" style="border-radius: 50%;max-height: 12rem;max-width: 12rem" src="<?php echo base_url('assets/images/bonfire.jpeg');?>">
+                <h6 class="h6 text-center">Bonfire</h6>
+            </div>
+
+              <div class="card hoverable col-md-3 m-2" data-aos="fade-left" style="max-height: 14rem;max-width: 14rem">
+                <img class="card-img rounded p-1" style="border-radius: 50%;max-height: 12rem;max-width: 12rem" src="<?php echo base_url('assets/images/cultural.jpeg');?>">
+                <h6 class="h6 text-center">Cultural Dance</h6>
+            </div>
+
+
+        </div>
+        </div>
+    </div>
+
+
+
 
  <div class="container">
      <hr class="mb-5 mt-5">

@@ -86,16 +86,16 @@
                                 <a class="nav-link" href="<?php echo base_url('index.php/About');?>">ABOUT US</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">BLOG</a>
+                                <a class="nav-link " href="<?php echo base_url('index.php/Sponsorship');?>">SPONSORSHIP</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">CONTACT</a>
+                                <a class="nav-link " href="<?php echo base_url('index.php/Contact');?>">CONTACT</a>
                             </li>
 
                         </ul>
                         <ul class="nav navbar-nav navbar-right action">
-                            <li class="nav-item"><a href="#" class="nav-link">SIGN IN </a> </li>
-                            <li class="nav-item"><a href="#" class="nav-link">REGISTER</a></li>
+                          
+                            <li class="nav-item"><a href="<?php echo base_url('index.php/Register');?>" class="nav-link">REGISTER</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -144,7 +144,7 @@
   <img src="<?php echo base_url('assets/images/iucee.jpg');?>"  style="height: 4rem"> &nbsp;&nbsp;
   <img src="<?php echo base_url('assets/images/scale.png');?>"  style="height: 3rem"> &nbsp;&nbsp;
   <img src="<?php echo base_url('assets/images/engineers.jpg');?>" style="height: 4rem" > &nbsp;&nbsp;
-  <img src="<?php echo base_url('assets/images/stumagz.jpg');?>" style="height: 3rem" >
+  
  </marquee>
 </div>
 
